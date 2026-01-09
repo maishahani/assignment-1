@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    font-family: "Inter", sans-serif;
+}
+body{
+    background-color: #FFFFFF;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 120px;
+}
+
+nav>img{
+    width: 139px;
+    height: 60px;
+}
+nav>ul{
+    display: flex;
+    list-style: none;
+    gap: 32px;
+}
+nav>ul>li{
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+nav>button{
+    padding: 12.5px 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #30B868;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: white;
+}
+
+.hero-container{
+    padding-bottom: 179.5px;
+    background: url('./images/cropped-hands-woman-writing-book\ 1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center; 
+    padding-top: 115.5px;
+}
+.hero-early{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 8px 12px;
+    gap: 6px;
+    border-radius: 50px;
+    width: fit-content;
+}
+.hero-early>p{
+    font-weight: 500;
+    font-size: 16px;
+    color: #30B868;
+}
+.hero-main-content{
+margin-top: 16px;
+}
+
+.hero-main-content>h1{
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 84px;
+    text-align: center;
+}
+.hero-main-content>p{
+ margin-top: 16px;
+ font-size: 18px;
+ line-height: 40px;
+ color: white;
+ font-weight: 400;
+ text-align: center;
+}
+.btn-wrapper{
+    margin-top: 32px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    justify-content: center;
+}
+.btn-wrapper button{
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: 600;
+    border: transparent;
+}
+.hero-btn1{
+    background-color: #30B868;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    border-radius: 4px;
+}
+.hero-btn2{
+    background-color: transparent;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    border-radius: 4px;
+}
+
+.container{
+    width: 1360px;
+    margin: auto;
+}
+
+.structure-container{
+    padding-top: 48px;
+}
+
+.structure-container>h1{
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.structure-container>p{
+    font-size: 16px;
+    text-align: center;
+    font-weight: 400;
+    margin-top: 16px;
+    color: #627382;
+    margin-bottom: 44px;
+}
+.structure-card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+.structure-card-wrapper{
+    background-color: white;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+    box-shadow: 0px 0px 8px 0px #0000000F;
+    border-radius: 8px;
+    min-height: 300px;
+
+}
+
+.structure-img-container{
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+    background-color: #F95555;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.structure-card-content>h3{
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 16px;
+    text-align: center;
+}
+.structure-card-content>p{
+    margin-top: 16px;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.brain-container{
+    margin-top: 120px;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.brain-content>h1{
+    font-size: 48px;
+    font-weight: 700;
+    margin: 16px 0px;
+}
+.brain-content>p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #627382;
+    max-width: 450px;
+}
+
+.brain-list-items{
+margin-top: 40px;
+display: flex;
+flex-direction: column;
+gap: 16px;
+}
+
+.brain-list-item{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+.brain-list-item>p{
+   font-size: 16px;
+   font-weight: 500;
+}
+
+.think-container{
+    margin-top: 120px;
+    background-color: #F7F6F2;
+    padding: 80px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.think-container p{
+   font-size: 16px;
+   line-height: 24px;
+   font-weight: 400;
+   margin-top: 16px;
+   color: #627382;
+   max-width: 580px;
+   text-align: center;
+}
+
+.think-container>button{
+    padding: 12.5px 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #469165;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: white;
+    margin-top: 16px;
+}
